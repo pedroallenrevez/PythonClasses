@@ -1,5 +1,5 @@
 slides:
-	jupyter nbconvert 1-Introduction.ipynb --to slides --post serve --SlidesExporter.reveal_theme=serif --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=none
+	jupyter nbconvert index.ipynb --to slides --post serve --SlidesExporter.reveal_theme=serif --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=none
 		
 clean:
 	rm *.html
